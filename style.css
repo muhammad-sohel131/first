@@ -1,0 +1,102 @@
+* {
+	padding:0;
+	margin: 0;
+}
+body {
+	background:black;
+	font-family: 'Roboto', sans-serif;
+}
+#container {
+	width: 1000px;
+	margin: 0 auto;
+	background: #EB7D7D;
+	padding: 30px;
+}
+.profileImg {
+	width: 150px;
+	height: 160px;
+	border: 3px solid #F6F2E5;
+	border-radius : 50%;
+}
+.imgDiv {
+	float: left;
+}
+.bioDiv {
+	float: left;
+	color: #F6F2E5;
+	padding: 50px 30px;
+}
+.bioDiv h2 {
+	margin-bottom: 5px;
+}
+.contactDiv {
+	float: right;
+	padding: 45px 0px;
+	
+}
+.contactDiv p a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px 0px;
+	display: block;
+	
+}
+.contactDiv p a:hover {
+	color: #F6F2E5;
+	text-decoration: underline;
+}
+.clearDiv {
+	clear: both;
+}
+hr {
+    border: 3px solid black;
+    border-top: none;
+    margin: 15px auto;
+}
+hr.commonhr {
+    border: 1px solid gray;
+	border-bottom: none;
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #F6F2E5;
+}
+h4 {
+    font-weight: 500;
+}
+div {
+	padding: 15px 0px;
+}
+
+.leftDiv {
+	width: 30%;
+	float: left;
+}
+.rightDiv {
+	width: 70%;
+	float: left;
+}
+.rightDiv1 {
+	float: left;
+	width: 45%;
+}
+.rightDiv2 {
+	float: right;
+	width: 45%;
+}
+footer {
+	background: black; 
+	padding: 20px;
+	text-align: center;
+	color: #F6F2E5;
+}
+footer ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 15px;
+}
+footer ul li a {
+	text-decoration: none;
+	color: #F6F2E5;
+}
